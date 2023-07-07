@@ -18,7 +18,7 @@ header img {
   display:block;
   margin: 0 auto;
   border: 2px solid black;
-  border-radius: 10px;
+  
 }
 
 /* Estilos para la barra de navegación */
@@ -36,8 +36,9 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
+  display: flex;
+  justify-content: center;
   margin-right: 10px;
-
 }
 
 header nav ul li a {
