@@ -68,6 +68,8 @@ h3 {
     grid-template-columns: 1fr;
 
   }
+
+  
   
 }
 
@@ -114,6 +116,7 @@ h3 {
   background-color: #a7dbc4;
   border: 4px solid #000000;
   border-radius: 10px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -126,11 +129,14 @@ h3 {
   border-radius: 10px;
   margin: 10px;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
+  
   
 }
-
+@media (min-width:809px) {
+.ubicacion iframe {
+  height:80% ;
+  }
+}
 
 footer {
   background-color: #f8f8f8;
@@ -151,9 +157,13 @@ footer {
 }
 
 .red-social img {
-  width: 50px;
+  width: 40px;
   
   margin-right: 5px;
+}
+.pieDePagina img:hover {
+width: 45px;
+  
 }
 
 
