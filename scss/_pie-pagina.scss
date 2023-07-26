@@ -1,0 +1,23 @@
+
+.pieDePagina {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  
+     .red-social {
+      align-items: center;
+      margin-right: 20px;
+  
+      img {
+        width: 40px;
+        margin-right: 5px;
+      }
+  
+      img:hover {
+        width: 45px;
+  
+      }
+    }
+  
+  }

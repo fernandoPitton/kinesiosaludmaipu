@@ -1,0 +1,37 @@
+.datosContacto {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+  
+  }
+  
+  .tarjetasContactos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+  
+    .formulario-container {
+      background-color: #a7dbc4;
+      border: 4px solid #000000;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    
+    }
+    
+    .ubicacion {
+      background-color: #a7dbc4;
+      border: 4px solid black;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 20px;
+    
+    
+    }
+    
+  }
+  
+  

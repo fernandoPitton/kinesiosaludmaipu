@@ -1,0 +1,25 @@
+/*https://app.moqups.com/MiEbYmVogK7Ahh79zyZY2AdiZZbgGsaI/view/page/a0af4b61b*/
+
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "extends";
+@import "header";
+@import "navegador";
+@import "bienvenidos";
+@import "tarjetas";
+@import "contactos";
+@import "pie-pagina";
+
+body {
+  background-color: rgb(135, 227, 225);
+}
+
+/* Estilos para los títulos */
+h2,
+h3 {
+  margin: 20px;
+}
+
+
+
