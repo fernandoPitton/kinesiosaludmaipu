@@ -1,6 +1,6 @@
 
 .pieDePagina {
-    background-color: #f8f8f8;
+    background-color: $bg-color-cajas2;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -12,12 +12,11 @@
       img {
         width: 40px;
         margin-right: 5px;
+        &:hover{
+          width: 45px;
+        }
       }
   
-      img:hover {
-        width: 45px;
-  
-      }
     }
   
   }
